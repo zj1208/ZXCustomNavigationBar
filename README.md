@@ -27,3 +27,17 @@ pod 'ZXNavigationBarKit'
 ## License
 
 ZXNavigationBarKit is available under the MIT license. See the LICENSE file for more info.
+
+
+##命令
+
+$ pod lib lint  --allow-warnings --verbose --no-clean
+
+$ pod trunk push ZXNavigationBarKit.podspec --allow-warnings --verbose
+
+
+## notice
+
+V0.0.1         2022.11.01
+
+

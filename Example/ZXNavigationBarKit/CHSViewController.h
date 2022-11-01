@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import "CHSBaseViewController.h"
 
-@interface CHSViewController : UIViewController
+@interface CHSViewController : CHSBaseViewController
 
 @end

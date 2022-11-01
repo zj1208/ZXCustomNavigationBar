@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3664135329111FE60093F844 /* CHSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3664135129111FE50093F844 /* CHSBaseViewController.m */; };
 		5D8F4F3DCACBFAFEBC4748F0 /* Pods_ZXNavigationBarKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD526DA85B3B3A926315E603 /* Pods_ZXNavigationBarKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,7 +39,9 @@
 
 /* Begin PBXFileReference section */
 		1AAB4B7546B728E9C8103F44 /* Pods-ZXNavigationBarKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXNavigationBarKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZXNavigationBarKit_Tests/Pods-ZXNavigationBarKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		254898FFC608285606C86EB2 /* ZXNavigationBarKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXNavigationBarKit.podspec; path = ../ZXNavigationBarKit.podspec; sourceTree = "<group>"; };
+		254898FFC608285606C86EB2 /* ZXNavigationBarKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXNavigationBarKit.podspec; path = ../ZXNavigationBarKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3664135129111FE50093F844 /* CHSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSBaseViewController.m; sourceTree = "<group>"; };
+		3664135229111FE60093F844 /* CHSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSBaseViewController.h; sourceTree = "<group>"; };
 		5664C7C0C66FD207A57E3278 /* Pods-ZXNavigationBarKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXNavigationBarKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZXNavigationBarKit_Example/Pods-ZXNavigationBarKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZXNavigationBarKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXNavigationBarKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,11 +62,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		684DCB481B6E50B628E26E75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		684DCB481B6E50B628E26E75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6DAC79839BC49B624671EEF0 /* Pods-ZXNavigationBarKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXNavigationBarKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ZXNavigationBarKit_Example/Pods-ZXNavigationBarKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6728E1E26032612C9C81E0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B6728E1E26032612C9C81E0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD526DA85B3B3A926315E603 /* Pods_ZXNavigationBarKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXNavigationBarKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBCCA43227626FB1D14327E /* Pods_ZXNavigationBarKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXNavigationBarKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6541278607595E1D4547A5E /* Pods-ZXNavigationBarKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXNavigationBarKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZXNavigationBarKit_Tests/Pods-ZXNavigationBarKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CHSViewController.h */,
 				6003F5A6195388D20070C39A /* CHSViewController.m */,
+				3664135229111FE60093F844 /* CHSBaseViewController.h */,
+				3664135129111FE50093F844 /* CHSBaseViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				1AAB4B7546B728E9C8103F44 /* Pods-ZXNavigationBarKit_Tests.debug.xcconfig */,
 				F6541278607595E1D4547A5E /* Pods-ZXNavigationBarKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -391,6 +396,7 @@
 			files = (
 				6003F59E195388D20070C39A /* CHSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CHSViewController.m in Sources */,
+				3664135329111FE60093F844 /* CHSBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

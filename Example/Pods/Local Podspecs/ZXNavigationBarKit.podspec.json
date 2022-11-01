@@ -1,9 +1,9 @@
 {
   "name": "ZXNavigationBarKit",
   "version": "0.1.0",
-  "summary": "A short description of ZXNavigationBarKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/海参/ZXNavigationBarKit",
+  "summary": "自定义导航条，隐藏系统导航条，使用不会受系统侧滑动画影响",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/zj1208/ZXNavigationBarKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "海参": "879654715@qq.com"
   },
   "source": {
-    "git": "https://github.com/海参/ZXNavigationBarKit.git",
+    "git": "https://github.com/zj1208/ZXNavigationBarKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "source_files": "ZXNavigationBarKit/Classes/**/*"
+  "source_files": "ZXNavigationBarKit/Classes/**/*",
+  "resource_bundles": {
+    "ZXCustomNavigationBar": [
+      "ZXCustomNavigationBar/Classes/**/*.{storyboard,xib}"
+    ]
+  }
 }

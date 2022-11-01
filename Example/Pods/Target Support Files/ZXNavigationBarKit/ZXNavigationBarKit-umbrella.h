@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSBundle+Pod.h"
+#import "ZXCustomNavigationBar.h"
 
 FOUNDATION_EXPORT double ZXNavigationBarKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZXNavigationBarKitVersionString[];
