@@ -33,7 +33,7 @@ Add long description of the pod here.
   s.source_files = 'ZXNavigationBarKit/Classes/**/*'
   
   s.resource_bundles = {
-     'ZXCustomNavigationBar' => ['ZXCustomNavigationBar/Classes/**/*.{storyboard,xib}']
+     'ZXNavigationBarKit' => ['ZXNavigationBarKit/Classes/**/*.{storyboard,xib}']
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
