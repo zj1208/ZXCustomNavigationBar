@@ -41,23 +41,21 @@
                     <rect key="frame" x="0.0" y="80" width="530" height="44"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipI-FM-8iP" userLabel="rightView">
-                            <rect key="frame" x="430" y="0.0" width="85" height="44"/>
+                            <rect key="frame" x="420" y="0.0" width="95" height="44"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31l-2N-93c">
-                                    <rect key="frame" x="0.0" y="0.0" width="35" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="44"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="vAm-xp-3KS"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="vAm-xp-3KS"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <state key="normal" title="预览"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Om4-e5-bQg">
-                                    <rect key="frame" x="50" y="0.0" width="35" height="44"/>
+                                    <rect key="frame" x="55" y="0.0" width="40" height="44"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="IaL-O1-oqc"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="IaL-O1-oqc"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <state key="normal" title="推广"/>
                                 </button>
                             </subviews>
                             <constraints>
@@ -97,7 +95,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <inset key="titleEdgeInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                    <state key="normal" image="ic_switch"/>
+                                    <state key="normal" image="arrowshape.turn.up.backward" catalog="system"/>
                                     <state key="highlighted" title="切换为采购商" image="ic_switch"/>
                                 </button>
                             </subviews>
@@ -153,6 +151,7 @@
         </view>
     </objects>
     <resources>
+        <image name="arrowshape.turn.up.backward" catalog="system" width="128" height="104"/>
         <image name="ic_switch" width="20" height="20"/>
     </resources>
 </document>

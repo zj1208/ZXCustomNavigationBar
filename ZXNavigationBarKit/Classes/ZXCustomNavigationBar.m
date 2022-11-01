@@ -49,7 +49,6 @@
     self.rightBarButton2.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
 
     [self.leftBarButton setTitle:nil forState:UIControlStateNormal];
-    [self.leftBarButton setTitle:nil forState:UIControlStateHighlighted];
     self.leftBarButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     
     [self setBarBackgroundContainerAlpha:1.f animated:NO];

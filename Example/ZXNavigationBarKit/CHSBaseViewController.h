@@ -15,13 +15,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) ZXCustomNavigationBar *customNavigationBar;
 
-
+///是否加载自定义navigationBar
 - (BOOL)loadCustomNavigationBar;
 
+///是否展示左边按钮
+- (BOOL)loadCustomNavigationBarLeftBarItem;
 
-- (void)leftBarItemAction:(id)sender;
 
-- (void)rightBarItemAction:(id)sender;
+- (void)leftBarItemClick:(id)sender;
+
+- (void)rightBarItemClick:(id)sender;
 
 @end
 

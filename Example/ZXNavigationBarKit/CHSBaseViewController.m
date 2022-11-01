@@ -20,12 +20,23 @@
     // Do any additional setup after loading the view.
     if([self loadCustomNavigationBar]){
         [self configurationCustomNavigationBar];
+        
+        if ([self loadCustomNavigationBarLeftBarItem]) {
+            [self.customNavigationBar.leftBarButton addTarget:self action:@selector(leftBarItemClick:) forControlEvents:UIControlEventTouchUpInside];
+            [self.customNavigationBar.leftBarButton setImage:[UIImage imageNamed:@"login_back_icon"] forState:UIControlStateNormal];
+        }else{
+            self.customNavigationBar.leftBarButton.hidden = YES;
+        }
     }
 }
 
 
 - (BOOL)loadCustomNavigationBar{
     return NO;
+}
+
+- (BOOL)loadCustomNavigationBarLeftBarItem{
+    return self.navigationController.viewControllers.count <= 1 ? NO:YES;
 }
 /*
  #pragma mark - Navigation
@@ -46,7 +57,7 @@
 {
     [super viewDidLayoutSubviews];
     if([self loadCustomNavigationBar]){
-        self.customNavigationBar.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, 44);
+        self.customNavigationBar.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, 64);
     }
 }
 
@@ -70,17 +81,14 @@
     if(!_customNavigationBar)
     {
         ZXCustomNavigationBar *view = [ZXCustomNavigationBar bar];
-        [view.leftBarButton addTarget:self action:@selector(leftBarItemAction:) forControlEvents:UIControlEventTouchUpInside];
-        [view.leftBarButton setImage:[UIImage imageNamed:@"login_back_icon"] forState:UIControlStateNormal];
         [view setBarBackgroundColor:[UIColor clearColor]];
-        [view.rightBarButton1 addTarget:self action:@selector(rightBarItemAction:) forControlEvents:UIControlEventTouchUpInside];
-        //        [view.rightBarButton2 addTarget:self action:@selector(previewBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+        [view.rightBarButton1 addTarget:self action:@selector(rightBarItemClick:) forControlEvents:UIControlEventTouchUpInside];
         _customNavigationBar = view;
     }
     return _customNavigationBar;
 }
 
-- (void)leftBarItemAction:(id)sender{
+- (void)leftBarItemClick:(id)sender{
     if ([self.navigationController popViewControllerAnimated:YES]) {
         
     }else{
@@ -88,7 +96,7 @@
     }
 }
 
-- (void)rightBarItemAction:(id)sender{
+- (void)rightBarItemClick:(id)sender{
     
 }
 
