@@ -1,0 +1,6 @@
+framework module ZXNavigationBarKit {
+  umbrella header "ZXNavigationBarKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
